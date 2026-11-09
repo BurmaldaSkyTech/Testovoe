@@ -1,0 +1,14 @@
+﻿@'
+__pycache__/
+*.pyc
+*.pyo
+
+# исходная выгрузка и файл задания — в репозиторий не кладём
+sales.csv
+Данные для тестового задания.csv
+*.docx
+~$*
+'@ | Out-File -Encoding utf8 .gitignore
+
+git add .gitignore
+git commit -m "chore: ignore docx and temp office files"
